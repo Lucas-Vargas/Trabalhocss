@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/styleresto.css">
+    <title>Formulário</title>
+</head>
+<body>
+    <h4>Adicionar um endereço</h4><br><br><br>
+    <div class="nome">
+        <p>Nome completo</p>
+        <input type="text" placeholder ="Adicionar novo nome" size="50px">
+        <p>Nome da empresa</p>
+        <input type="text" size="50px">
+        <p>Linha endereço 1</p>
+        <input type="text" size="50px">
+        <p>Linha endereço 2</p>
+        <input type="text" size="50px"><br>
+    </div><br>
+    <div class="container">
+        <p>Cidade</p>
+        <input type="text" size="30px">
+        <div class="estadon"><p>Estado</p></div>
+        <div class="estado"><input type="text" size="30px"></div>
+        <div class="codigon">Código postal</div>
+        <div class="codigo"><input type="text" size="30px"></div>
+        
+    </div>
+    <div class="paisn"><p>País</p></div><br>
+    <select name="cidade" id="cidade"width="30px"class="pais">
+        <option value="brasil"></option>
+        <option value="brasil">Brasil</option>
+        <option value="Argentina">Argentina</option>
+        <option value="brasil">Colombia</option>
+        <option value="brasil">Peru</option>
+        <option value="brasil">Chile</option>
+        <option value="brasil">Equador</option>
+        <option value="brasil">Venezuela</option>
+        <option value="brasil">Bolivia</option>
+        <option value="brasil">Uruguai</option>
+        <option value="brasil">guiana</option>
+        <option value="brasil">Suriname</option>
+        <option value="brasil">Paraguai</option>
+    </select>
+    <p class="teln">Telefone</p><br>
+    <input type="tel" class="tel" name="phone" placeholder="Adicionar novo telefone">
+    <div class="divfax">
+    <p faxn>Fax</p><br>
+    <input type="text" class="fax" placeholder="Adicionar novo Fax">
+</div>
+    <p class="mailn">E-mail</p><br>
+    <input type="email" name="mail" class="mail" placeholder="Adicionar novo E-mail">
+</body>
+</html>
